@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cats-image": "/pages/cats/cats-image"
+  },
+  "component": true
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "app-attr": "/components/page-component/app-attr/app-attr",
+    "u-attr": "/components/page-component/goods/u-attr"
+  },
+  "component": true
+}

@@ -1,0 +1,22 @@
+<app-layout vue-id="1" class="data-v-8fb22f52" bind:__l="__l" vue-slots="{{['default']}}">
+  <block>
+    <view class="fypd-page">
+      <view class="list-item">
+        <view class="item-time">下单时间</view>
+        <view class="item-price">下单金额</view>
+        <view class="item-list">排队人数</view>
+      </view>
+
+      <scroll-view>
+        <view wx:for="{{fypd_list}}" wx:key="key" wx:for-index="idx" wx:for-item="item" >
+          <view class="list-item">
+            <view class="item-time">{{item.time}}</view>
+            <view class="item-price">{{item.price}}</view>
+            <view class="item-list">{{item.list}}</view>
+          </view>
+
+        </view>
+      </scroll-view>
+    </view>
+  </block>
+</app-layout>

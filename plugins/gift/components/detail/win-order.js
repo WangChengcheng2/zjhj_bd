@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/gift/components/detail/win-order"],{"419f":function(t,n,e){"use strict";e.r(n);var r=e("baa0"),i=e.n(r);for(var o in r)["default"].indexOf(o)<0&&function(t){e.d(n,t,(function(){return r[t]}))}(o);n["default"]=i.a},6334:function(t,n,e){"use strict";e.d(n,"a",(function(){return r})),e.d(n,"b",(function(){return i}));var r=function(){var t=this,n=t.$createElement,e=(t._self._c,t.__map(t.order_list,(function(n,e){var r=t._f("getPicUrl")(n);return{$orig:t.__get_orig(n),f0:r}})));t.$mp.data=Object.assign({},{$root:{l0:e}})},i=[]},7708:function(t,n,e){"use strict";e("da2d")},baa0:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={name:"win-order",props:["order_list","status_num"],methods:{route_go:function(n){t.navigateTo({url:n})},setSwitch:function(t){this.$emit("setSwitch",t)},previewImage:function(n,e){t.previewImage({urls:n,current:e,longPressActions:{itemList:["发送给朋友","保存图片"],success:function(){},fail:function(){}}})}},filters:{getPicUrl:function(t){var n="[object String]"===Object.prototype.toString.call(t.goods_info)?JSON.parse(t.goods_info).goods_attr:t.goods_info.goods_attr;return n.pic_url?n.pic_url:t.cover_pic}}};n.default=e}).call(this,e("d2c1")["default"])},da2d:function(t,n,e){},f4a3:function(t,n,e){"use strict";e.r(n);var r=e("6334"),i=e("419f");for(var o in i)["default"].indexOf(o)<0&&function(t){e.d(n,t,(function(){return i[t]}))}(o);e("7708");var u=e("5d22"),c=Object(u["a"])(i["default"],r["a"],r["b"],!1,null,"e4bc11dc",null);n["default"]=c.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/gift/components/detail/win-order-create-component',
+    {
+        'plugins/gift/components/detail/win-order-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('d2c1')['createComponent'](__webpack_require__("f4a3"))
+        })
+    },
+    [['plugins/gift/components/detail/win-order-create-component']]
+]);                

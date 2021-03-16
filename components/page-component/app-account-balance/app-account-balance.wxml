@@ -1,0 +1,31 @@
+<block wx:if="{{showBar}}">
+  <view class="{{['app-account-balance dir-left-nowrap cross-center data-v-22173b9e',!margin?'no-margin':'',!round?'no-round':'']}}" style="margin-bottom: 0rpx;border-radius: 16rpx 16rpx 0 0">
+    <block wx:if="{{showIntegral}}">
+      <view class="{{['box-grow-1 split data-v-22173b9e',showCount>1?'':'data-col']}}">
+        <app-account-style vue-id="1" show-count="{{showCount}}" icon="{{userCenter.account_bar.integral.icon}}" text="{{userCenter.account_bar.integral.text}}" value="{{userInfo?userInfo.integral:'-'}}" page="{{userCenter.account_bar.integral.navigate_enabled?'/plugins/integral_mall/index/index':'/pages/user-center/integral-detail/integral-detail'}}"
+          class="data-v-22173b9e" bind:__l="__l"></app-account-style>
+      </view>
+    </block>
+    <block wx:if="{{showBalance}}">
+      <view class="{{['box-grow-1 split data-v-22173b9e',showCount>1?'':'data-col']}}">
+        <app-account-style vue-id="2" show-count="{{showCount}}" icon="{{userCenter.account_bar.balance.icon}}" text="{{userCenter.account_bar.balance.text}}" value="{{userInfo?userInfo.balance:'-'}}" page="/pages/balance/balance" class="data-v-22173b9e"
+          bind:__l="__l"></app-account-style>
+      </view>
+    </block>
+    <block wx:if="{{showCoupon}}">
+      <view class="{{['box-grow-1 split data-v-22173b9e',showCount>1?'':'data-col']}}">
+        <app-account-style vue-id="3" show-count="{{showCount}}" icon="{{userCenter.account_bar.coupon.icon}}" text="{{userCenter.account_bar.coupon.text}}" value="{{userInfo?userInfo.coupon:'-'}}" page="/pages/coupon/index/index" class="data-v-22173b9e"
+          bind:__l="__l"></app-account-style>
+      </view>
+    </block>
+    <block wx:if="{{showCard}}">
+      <view class="{{['box-grow-1 split data-v-22173b9e',showCount>1?'':'data-col']}}">
+        <app-account-style vue-id="4" show-count="{{showCount}}" icon="{{userCenter.account_bar.card.icon}}" text="{{userCenter.account_bar.card.text}}" value="{{userInfo?userInfo.card:'-'}}" page="/pages/card/index/index" class="data-v-22173b9e" bind:__l="__l"></app-account-style>
+      </view>
+    </block>
+  </view>
+  <view class="{{['app-account-balance dir-left-nowrap cross-center data-v-22173b9e',!margin?'no-margin':'',!round?'no-round':'']}}" style="margin-top: 0rpx;border-radius: 0 0 16rpx 16rpx;padding:0 32rpx">
+    <view class="data-v-22173b9e" style="flex:2">当前下单分佣排列统计</view>
+    <navigator class="data-v-22173b9e" style="flex:1;text-align: right;color:#999;" url="/pages/volleyball-list/list">查看更多<image class="arrow data-v-64f56c64" style="width: 12rpx;height: 22rpx;margin-left:12rpx" src="/static/image/icon/arrow-right.png"></image></navigator>
+  </view>
+</block>

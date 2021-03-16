@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/pt/components/app-participant"],{"02a7":function(t,n,e){},"55e4":function(t,n,e){"use strict";e.d(n,"a",(function(){return i})),e.d(n,"b",(function(){return u}));var i=function(){var t=this,n=t.$createElement;t._self._c;t._isMounted||(t.e0=function(n){t.ptBool=!0})},u=[]},b0a8:function(t,n,e){"use strict";e.r(n);var i=e("eb56"),u=e.n(i);for(var a in i)["default"].indexOf(a)<0&&function(t){e.d(n,t,(function(){return i[t]}))}(a);n["default"]=u.a},d087:function(t,n,e){"use strict";e("02a7")},d49f:function(t,n,e){"use strict";e.r(n);var i=e("55e4"),u=e("b0a8");for(var a in u)["default"].indexOf(a)<0&&function(t){e.d(n,t,(function(){return u[t]}))}(a);e("d087");var o=e("5d22"),r=Object(o["a"])(u["default"],i["a"],i["b"],!1,null,"00b782ba",null);n["default"]=r.exports},eb56:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i=function(){return e.e("plugins/pt/components/app-surplus_time").then(e.bind(null,"7f80"))},u=function(){return e.e("plugins/pt/components/app-participant-model").then(e.bind(null,"f1ab"))},a={name:"app-participant",data:function(){return{ptBool:!1,show:0,selectAttr:{},attr:{},list:[]}},props:{pintuan_list:{type:Array,default:function(){return[]}},theme:Object},methods:{route_go:function(){t.navigateTo({url:"/pages/rules/index?url=".concat(encodeURIComponent(this.$api.pt.index),"&keys=").concat(JSON.stringify(["setting","new_rules"]))})}},components:{"app-surplus-time":i,"app-participant-model":u},watch:{pintuan_list:{handler:function(t){this.list=t},immediate:!0}}};n.default=a}).call(this,e("d2c1")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/pt/components/app-participant-create-component',
+    {
+        'plugins/pt/components/app-participant-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('d2c1')['createComponent'](__webpack_require__("d49f"))
+        })
+    },
+    [['plugins/pt/components/app-participant-create-component']]
+]);                

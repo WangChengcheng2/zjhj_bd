@@ -1,0 +1,1 @@
+<view class="bd-detail data-v-e6712924"><block wx:if="{{newDetail}}"><view class="detail data-v-e6712924"><image src="/static/image/icon/goods-detail.png" class="data-v-e6712924"></image><app-rich-text vue-id="1" content="{{newDetail}}" class="data-v-e6712924" bind:__l="__l"></app-rich-text></view></block></view>

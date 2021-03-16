@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/app-map/app-map"],{"160a3":function(t,n,a){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a={name:"app-map",props:{backgroundColor:String,backgroundPicUrl:String,height:Number,latitude:String,longitude:String,marginTop:Number,marginTopColor:String,paddingX:Number,paddingY:Number,address:{type:String,default:function(){return""}}},data:function(){return{markers:[]}},mounted:function(){var t=this,n={iconPath:"../../../static/image/summary-map.png",id:0,width:43,height:43,latitude:this.latitude,longitude:this.longitude};t.address&&(n.callout={content:t.address,color:"#353535",fontSize:"13",bgColor:"#FFFFFF",display:"ALWAYS",textAlign:"center",padding:"20rpx"}),t.markers=[n]},methods:{openMap:function(){t.openLocation({latitude:parseFloat(this.latitude),longitude:parseFloat(this.longitude),name:this.address,address:this.address})}}};n.default=a}).call(this,a("d2c1")["default"])},"4ba9":function(t,n,a){"use strict";a.r(n);var e=a("b413"),i=a("964a");for(var r in i)["default"].indexOf(r)<0&&function(t){a.d(n,t,(function(){return i[t]}))}(r);a("a061");var o=a("5d22"),u=Object(o["a"])(i["default"],e["a"],e["b"],!1,null,"87b64430",null);n["default"]=u.exports},"964a":function(t,n,a){"use strict";a.r(n);var e=a("160a3"),i=a.n(e);for(var r in e)["default"].indexOf(r)<0&&function(t){a.d(n,t,(function(){return e[t]}))}(r);n["default"]=i.a},a01e:function(t,n,a){},a061:function(t,n,a){"use strict";a("a01e")},b413:function(t,n,a){"use strict";a.d(n,"a",(function(){return e})),a.d(n,"b",(function(){return i}));var e=function(){var t=this,n=t.$createElement;t._self._c},i=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/app-map/app-map-create-component',
+    {
+        'components/page-component/app-map/app-map-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('d2c1')['createComponent'](__webpack_require__("4ba9"))
+        })
+    },
+    [['components/page-component/app-map/app-map-create-component']]
+]);                

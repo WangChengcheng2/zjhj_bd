@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["plugins/gift/components/index/generate-package"],{1432:function(t,e,n){"use strict";n.d(e,"a",(function(){return a})),n.d(e,"b",(function(){return i}));var a=function(){var t=this,e=t.$createElement;t._self._c},i=[]},"1a5a":function(t,e,n){"use strict";n("8861")},"20da":function(t,e,n){"use strict";n.r(e);var a=n("92d5"),i=n.n(a);for(var r in a)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return a[t]}))}(r);e["default"]=i.a},8158:function(t,e,n){"use strict";n.r(e);var a=n("1432"),i=n("20da");for(var r in i)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return i[t]}))}(r);n("1a5a");var c=n("5d22"),o=Object(c["a"])(i["default"],a["a"],a["b"],!1,null,"716d6b37",null);e["default"]=o.exports},8861:function(t,e,n){},"92d5":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=n("8de3"),i={name:"generate-package",props:{theme:String,totalPrice:String,template_message_captain:Array},computed:{newPrice:function(){return 0===Number(this.totalPrice)?"0.00":this.totalPrice}},methods:{generatePackage:function(e){var n=this;(0,a.push)(e.detail.formId),this.$storage.getStorageSync("GIFT_CART"),this.$storage.getStorageSync("GIFT_CART")&&Array.isArray(this.$storage.getStorageSync("GIFT_CART"))&&this.$storage.getStorageSync("GIFT_CART").length>0?this.$subscribe(this.template_message_captain).then((function(t){n.$emit("click")})).catch((function(t){n.$emit("click")})):t.showToast({mask:!0,title:"请选择礼物",icon:"none"})}}};e.default=i}).call(this,n("d2c1")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'plugins/gift/components/index/generate-package-create-component',
+    {
+        'plugins/gift/components/index/generate-package-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('d2c1')['createComponent'](__webpack_require__("8158"))
+        })
+    },
+    [['plugins/gift/components/index/generate-package-create-component']]
+]);                

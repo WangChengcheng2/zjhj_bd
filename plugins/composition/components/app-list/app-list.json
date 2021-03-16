@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "u-attr": "/components/page-component/goods/u-attr"
+  },
+  "component": true
+}

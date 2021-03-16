@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/goods/app-price"],{"244b":function(t,e,n){"use strict";n.d(e,"a",(function(){return i})),n.d(e,"b",(function(){return r}));var i=function(){var t=this,e=t.$createElement;t._self._c},r=[]},5471:function(t,e,n){"use strict";n.r(e);var i=n("fe32"),r=n.n(i);for(var u in i)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return i[t]}))}(u);e["default"]=r.a},"6c9f":function(t,e,n){"use strict";n.r(e);var i=n("244b"),r=n("5471");for(var u in r)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return r[t]}))}(u);n("b5a6");var a=n("5d22"),c=Object(a["a"])(r["default"],i["a"],i["b"],!1,null,"284fa598",null);e["default"]=c.exports},b5a6:function(t,e,n){"use strict";n("cdb5")},cdb5:function(t,e,n){},fe32:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i={props:{max:{type:String,default:function(){return"-1"}},min:{type:String,default:function(){return"-1"}},defaultPrice:{type:String,default:function(){return"-1"}},price:{type:[String,Number],default:function(){return"-1"}},type:{type:String,default:function(){return"text-price"}},theme:[Object,String],sign:String},data:function(){return{priceType:this.type}},computed:{actual:function(){var t=-1,e=-1,n=-1,i=-1,r=-1,u=this.type;return"undefined"!==this.price&&(e=Number(this.price)),"undefined"!==this.min&&(n=Number(this.min)),"undefined"!==this.max&&(i=Number(this.max)),"undefined"!==this.defaultPrice&&(r=Number(this.defaultPrice)),!isNaN(e)&&e>=0?t=e:i>n&&n>=0?t=n+"-"+i:i===n&&n>=0?t=n:r>=0&&(t=r),0===t&&(t="免费",u=""),"integral_mall"===this.sign&&"免费"===t&&(t=""),{price:t,type:u}}}};e.default=i}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/goods/app-price-create-component',
+    {
+        'components/page-component/goods/app-price-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('d2c1')['createComponent'](__webpack_require__("6c9f"))
+        })
+    },
+    [['components/page-component/goods/app-price-create-component']]
+]);                
